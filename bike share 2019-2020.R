@@ -12,10 +12,10 @@ library(readr)
 
 #DATA 2019 .......................................................
 
-Divvy_trip_2019_Q1<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_trip_2019_Q1.csv")
-Divvy_trip_2019_Q2<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_trip_2019_Q2.csv")
-Divvy_trip_2019_Q3<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_trip_2019_Q3.csv")
-Divvy_trip_2019_Q4<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_trip_2019_Q4.csv")
+Divvy_trip_2019_Q1<- read_csv(".../bike-share PROJECT/Divvy_trip_2019_Q1.csv")
+Divvy_trip_2019_Q2<- read_csv(".../bike-share PROJECT/Divvy_trip_2019_Q2.csv")
+Divvy_trip_2019_Q3<- read_csv(".../Desktop/bike-share PROJECT/Divvy_trip_2019_Q3.csv")
+Divvy_trip_2019_Q4<- read_csv(".../Desktop/bike-share PROJECT/Divvy_trip_2019_Q4.csv")
 
 # changing the ride_id and rideable_type to character
 
@@ -98,10 +98,10 @@ Divvy_trip_2019_Q4 <- Divvy_trip_2019_Q4 %>%
 
 
 
-write.csv(Divvy_trip_2019_Q1,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_trip_2019_Q1.csv", row.names = FALSE)
-write.csv(Divvy_trip_2019_Q2,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_trip_2019_Q2.csv", row.names = FALSE)
-write.csv(Divvy_trip_2019_Q3,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_trip_2019_Q3.csv", row.names = FALSE)
-write.csv(Divvy_trip_2019_Q4,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_trip_2019_Q4.csv", row.names = FALSE)
+write.csv(Divvy_trip_2019_Q1,"...//Divvy_trip_2019_Q1.csv", row.names = FALSE)
+write.csv(Divvy_trip_2019_Q2,"...//Divvy_trip_2019_Q2.csv", row.names = FALSE)
+write.csv(Divvy_trip_2019_Q3,"...//Divvy_trip_2019_Q3.csv", row.names = FALSE)
+write.csv(Divvy_trip_2019_Q4,"...//Divvy_trip_2019_Q4.csv", row.names = FALSE)
 
 
 
@@ -120,9 +120,9 @@ View(Divvy_2019_data)
 
 Divvy_trip_2019_Q4 <- mutate(Divvy_trip_2019_Q4, month= as.character(month))
 
-write.csv(Divvy_2019_data,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_2019_data.csv", row.names = FALSE)
+write.csv(Divvy_2019_data,"...//Divvy_2019_data.csv", row.names = FALSE)
 
-Divvy_2019_data <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_2019_data.csv")
+Divvy_2019_data <- read_csv(".../Divvy_2019_data.csv")
 
 
 
@@ -264,7 +264,7 @@ Divvy_2019_data %>%
 
 
 
-#  number of rides between members and casual riders by day of week across the year¶
+#  number of rides between members and casual riders by day of week across the yearÂ¶
 
 options(repr.plot.width = 80, repr.plot.height = 14)
 
@@ -295,30 +295,30 @@ Divvy_2019_data%>%
 # DATA 2020 TRIPS ..............................................................
 
 
-Divvy_Trips_2020_Q1 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_Trips_2020_Q1.csv")
+Divvy_Trips_2020_Q1 <- read_csv(".../Divvy_Trips_2020_Q1.csv")
 View(Divvy_Trips_2020_Q1)
 
-Divvy_tripdata_2020_04 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202004-divvy-tripdata.csv")
+Divvy_tripdata_2020_04 <- read_csv(".../202004-divvy-tripdata.csv")
 
 
-Divvy_tripdata_2020_05 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202005-divvy-tripdata.csv")
+Divvy_tripdata_2020_05 <- read_csv(".../202005-divvy-tripdata.csv")
 
 
-Divvy_tripdata_2020_06 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202006-divvy-tripdata.csv")
+Divvy_tripdata_2020_06 <- read_csv(".../202006-divvy-tripdata.csv")
 
 
 
-Divvy_tripdata_2020_07<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202007-divvy-tripdata.csv")
+Divvy_tripdata_2020_07<- read_csv(".../202007-divvy-tripdata.csv")
 View(Divvy_tripdata_2020_07)
 
 
-Divvy_tripdata_2020_08 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202008-divvy-tripdata.csv")
+Divvy_tripdata_2020_08 <- read_csv(".../202008-divvy-tripdata.csv")
 
-Divvy_tripdata_2020_09<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202009-divvy-tripdata.csv")
+Divvy_tripdata_2020_09<- read_csv(".../202009-divvy-tripdata.csv")
 
-Divvy_tripdata_2020_10<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202010-divvy-tripdata.csv")
-Divvy_tripdata_2020_11<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202011-divvy-tripdata.csv")
-Divvy_tripdata_2020_12<- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/202012-divvy-tripdata.csv")
+Divvy_tripdata_2020_10<- read_csv(".../202010-divvy-tripdata.csv")
+Divvy_tripdata_2020_11<- read_csv(".../202011-divvy-tripdata.csv")
+Divvy_tripdata_2020_12<- read_csv(".../202012-divvy-tripdata.csv")
 
 Divvy_tripdata_2020_10$started_at <- dmy_hm(Divvy_tripdata_2020_10$started_at)
 Divvy_tripdata_2020_10$ended_at <- dmy_hm(Divvy_tripdata_2020_10$ended_at)
@@ -326,16 +326,16 @@ View(Divvy_tripdata_2020_10)
 
 
 
-Divvy_tripdata_2020_Q1 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_tripdata_2020_Q1.csv")
-Divvy_tripdata_2020_Q2 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_tripdata_2020_Q2.csv")
-Divvy_tripdata_2020_Q3 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_tripdata_2020_Q3.csv")
-Divvy_tripdata_2020_Q4 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_tripdata_2020_Q4.csv")
+Divvy_tripdata_2020_Q1 <- read_csv(".../Divvy_tripdata_2020_Q1.csv")
+Divvy_tripdata_2020_Q2 <- read_csv(".../Divvy_tripdata_2020_Q2.csv")
+Divvy_tripdata_2020_Q3 <- read_csv(".../Divvy_tripdata_2020_Q3.csv")
+Divvy_tripdata_2020_Q4 <- read_csv(".../Divvy_tripdata_2020_Q4.csv")
 
 
-Divvy_data_2020 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_data_2020.csv")
-Divvy_data_2019 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_data_2019.csv")
+Divvy_data_2020 <- read_csv(".../Divvy_data_2020.csv")
+Divvy_data_2019 <- read_csv(".../Divvy_data_2019.csv")
 
-Divvy_2020_data <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_2020_data_v2.csv")
+Divvy_2020_data <- read_csv(".../Divvy_2020_data_v2.csv")
 
 
 
@@ -418,23 +418,23 @@ View(Divvy_tripdata_2020_Q4)
 Divvy_2020_data <- bind_rows(Divvy_tripdata_2020_Q1 , Divvy_tripdata_2020_Q2,Divvy_tripdata_2020_Q3,Divvy_tripdata_2020_Q4)
 View(Divvy_2020_data)
 
-Divvy_2020_data <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_2020_data.csv")
+Divvy_2020_data <- read_csv(".../Divvy_2020_data.csv")
 
 
 
 
 
 
-write.csv(Divvy_tripdata_2020_Q1,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_tripdata_2020_Q1.csv", row.names = FALSE)
-write.csv(Divvy_tripdata_2020_Q2,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_tripdata_2020_Q2.csv", row.names = FALSE)
-write.csv(Divvy_tripdata_2020_Q3,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_tripdata_2020_Q3.csv", row.names = FALSE)
-write.csv(Divvy_tripdata_2020_Q4,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_tripdata_2020_Q4.csv", row.names = FALSE)
+write.csv(Divvy_tripdata_2020_Q1,"...//Divvy_tripdata_2020_Q1.csv", row.names = FALSE)
+write.csv(Divvy_tripdata_2020_Q2,"...//Divvy_tripdata_2020_Q2.csv", row.names = FALSE)
+write.csv(Divvy_tripdata_2020_Q3,"...//Divvy_tripdata_2020_Q3.csv", row.names = FALSE)
+write.csv(Divvy_tripdata_2020_Q4,"...//Divvy_tripdata_2020_Q4.csv", row.names = FALSE)
 
 
 
 
-write.csv(Divvy_data_2020,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_data_2020.csv", row.names = FALSE)
-write.csv(Divvy_data_2019,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_data_2019.csv", row.names = FALSE)
+write.csv(Divvy_data_2020,"...//Divvy_data_2020.csv", row.names = FALSE)
+write.csv(Divvy_data_2019,"...//Divvy_data_2019.csv", row.names = FALSE)
 
 
 
@@ -490,16 +490,16 @@ Divvy_tripdata_2020_12<- Divvy_tripdata_2020_12 %>%
 
 
 
-Divvy_Trips_2019_Q1 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_T_2019_Q1.csv")
+Divvy_Trips_2019_Q1 <- read_csv(".../Divvy_T_2019_Q1.csv")
 View(Divvy_Trips_2019_Q1)
 
-Divvy_Trips_2019_Q2 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_T_2019_Q2.csv")
+Divvy_Trips_2019_Q2 <- read_csv(".../Divvy_T_2019_Q2.csv")
 View(Divvy_Trips_2019_Q2)
 
-Divvy_Trips_2019_Q3 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_T_2019_Q3.csv")
+Divvy_Trips_2019_Q3 <- read_csv(".../Divvy_T_2019_Q3.csv")
 View(Divvy_Trips_2019_Q3)
 
-Divvy_Trips_2019_Q4 <- read_csv("C:/Users/piyus/Desktop/bike-share PROJECT/Divvy_T_2019_Q4.csv")
+Divvy_Trips_2019_Q4 <- read_csv(".../Divvy_T_2019_Q4.csv")
 View(Divvy_Trips_2019_Q4)
 
 
@@ -655,39 +655,11 @@ Divvy_data_2019$year <- format(as.Date(Divvy_data_2019$date), "%Y")
 Divvy_data_2019$day_of_week <- format(as.Date(Divvy_data_2019$date), "%A")
 
 
-Divvy_2020_data$date <- format(as.Date(Divvy_2020_data$started_at, "%Y-%m-%d"), "%d-%m-%Y" )#The default format is yyyy-mm-dd
-Divvy_2020_data$month <- format(as.Date(Divvy_2020_data$date), "%m")
-Divvy_2020_data$day <- format(as.Date(Divvy_2020_data$date), "%d")
-Divvy_2020_data$year <- format(as.Date(Divvy_2020_data$date), "%Y")
-Divvy_2020_data$day_of_week <- format(as.Date(Divvy_2020_data$date), "%A")
 
-
-
-#.............................................................................
-
-colnames(Divvy_Trips_2019_Q1)
-colnames(Divvy_Trips_2019_Q2)
-colnames(Divvy_Trips_2019_Q3)
-colnames(Divvy_Trips_2019_Q4)
-
-
-summary(Divvy_Trips_2019_Q1)
-summary(Divvy_Trips_2019_Q2)
-summary(Divvy_Trips_2019_Q3)
-summary(Divvy_Trips_2019_Q4)
-
-typeof(Divvy_Trips_2019_Q1)
-colnames(Divvy_Trips_2019_Q2)
-colnames(Divvy_Trips_2019_Q3)
-colnames(Divvy_Trips_2019_Q4)
-
-
-
-
-write.csv(Divvy_Trips_2019_Q1,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_T_2019_Q1.csv", row.names = FALSE)
-write.csv(Divvy_Trips_2019_Q2,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_T_2019_Q2.csv", row.names = FALSE)
-write.csv(Divvy_Trips_2019_Q3,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_T_2019_Q3.csv", row.names = FALSE)
-write.csv(Divvy_Trips_2019_Q4,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_T_2019_Q4.csv", row.names = FALSE)
+write.csv(Divvy_Trips_2019_Q1,"...//Divvy_T_2019_Q1.csv", row.names = FALSE)
+write.csv(Divvy_Trips_2019_Q2,"...//Divvy_T_2019_Q2.csv", row.names = FALSE)
+write.csv(Divvy_Trips_2019_Q3,"...//Divvy_T_2019_Q3.csv", row.names = FALSE)
+write.csv(Divvy_Trips_2019_Q4,"...//Divvy_T_2019_Q4.csv", row.names = FALSE)
 
 
 
@@ -719,80 +691,15 @@ write.csv(Divvy_2020_data,"C:/Users/piyus/Desktop/bike-share PROJECT//Divvy_2020
 memory.limit(size = 12000)
 
 
-
-
 library(dplyr)
-
-
-all_quart_data <- bind_rows(Divvy_Trips_2018_Q1 , Divvy_Trips_2018_Q2,Divvy_Trips_2018_Q3 , Divvy_Trips_2018_Q4)
-
-View(all_quart_data)
-
-
-
-colnames(all_quart_data) #List of column names
-nrow(all_quart_data) #How many rows are in data frame?
-dim(all_quart_data) #Dimensions of the data frame?
-head(all_quart_data) #See the first 6 rows of data frame. Also tail(qs_raw)
-str(all_quart_data) #See list of columns and data types (numeric, character, etc)
-
-
-
-summary_data_2019 <- summary(Divvy_data_2019) #Statistical summary of data. Mainly for numerics
-View(summary_data_2019)
-
-summary_data_2020 <- summary(Divvy_data_2020) #Statistical summary of data. Mainly for numerics
-View(summary_data_2020)
-
-
-
-write.csv(summary_data_2019,"C:/Users/piyus/Desktop/bike-share PROJECT//summary_data_2019.csv", row.names = FALSE)
-
-write.csv(summary_data_2020,"C:/Users/piyus/Desktop/bike-share PROJECT//summary_data_2020.csv", row.names = FALSE)
-
-
-
-
-all_quart_data <- all_quart_data %>%
-  mutate(User_Type = recode(User_Type,"Subscriber" = "Member" , "Customer" = "Casual"))
-
-lubridate::dmy(D)
-
-library(lubridate)
-
-all_quart_data$date <- format(as.Date(all_quart_data$Start_Time, "%d-%m-%y"), "%d/%m/%Y") 
-all_quart_data$month <- format(as.Date(all_quart_data$date,"%d/%m/%Y"), "%m")
-all_quart_data$day <- format(as.Date(all_quart_data$date,"%d/%m/%Y"), "%d")
-all_quart_data$year <- format(as.Date(all_quart_data$date,"%d/%m/%Y"), "%Y")
-all_quart_data$day_of_week <- format(as.Date(all_quart_data$date,"%d/%m/%Y"), "%A")
-
-all_quart_data$date <- as.Date(all_quart_data$Start_Time)
-as.Da
-
-
-colnames(all_quart_data)[13] <- "date"
-View(all_quart_data)
-colnames(all_quart_data)[5] <- "Ride_length"
-
-
-
 
 
 #............Descriptive Analysis.............................................................
 
 
-mean(all_quart_data2$Ride_length) #straight average (total ride length / rides)
-median(all_quart_data$Ride_length) #midpoint number in the ascending array of ride lengths
-max(all_quart_data$Ride_length) #longest ride
-min(all_quart_data$Ride_length) #shortest ride
 
-summary(all_quart_data$Ride_length)# it does the same job as above 4 lines ...
 
 # Compare members and casual users...............................
-aggregate(Divvy_data_2019$ride_length ~ Divvy_data_2019$member_casual, FUN = mean)
-aggregate(Divvy_data_2019$ride_length ~ Divvy_data_2019$member_casual, FUN = median)
-aggregate(Divvy_data_2019$ride_length ~ Divvy_data_2019$member_casual, FUN = max)
-aggregate(Divvy_data_2019$ride_length ~ Divvy_data_2019$member_casual, FUN = min)
 
 aggregate(Divvy_2020_data$ride_length ~ Divvy_2020_data$member_casual, FUN = mean)
 aggregate(Divvy_2020_data$ride_length ~ Divvy_2020_data$member_casual, FUN = median)
@@ -802,17 +709,12 @@ aggregate(Divvy_2020_data$ride_length ~ Divvy_2020_data$member_casual, FUN = min
 
 
 
-
-colnames(all_quart_data)[13] <- "date"
-
-colnames(all_quart_data)[5] <- "Ride_length"
-
 #the average ride time by each day for members vs casual users
 mean_ride_length_by_Day <- aggregate(Divvy_2020_data$ride_length ~ Divvy_2020_data$member_casual + Divvy_2020_data$day_of_week, FUN = mean)  
 
 View(Divvy_2020_data)
 
-write.csv(mean_ride_length_by_Day,"C:\\Users\\piyus\\Desktop\\bike-share PROJECT\\mean_ride_length_by_Day.csv", row.names = FALSE)
+write.csv(mean_ride_length_by_Day,"...\\mean_ride_length_by_Day.csv", row.names = FALSE)
 
 
 #correcting the order of days in week
@@ -826,24 +728,7 @@ Divvy_2020_type_weekday <- Divvy_2020_data %>%
   arrange(member_casual,weekday) # sorts 
 
 
-write.csv(Divvy_2020_type_weekday,"C:\\Users\\piyus\\Desktop\\bike-share PROJECT\\Divvy_2020_type_weekday.csv", row.names = FALSE)
-
 View(Divvy_2020_type_weekday)
-
-data_by_week <- all_quart_data %>%
-  mutate(weekday = wday(Start_Time, label = TRUE)) %>% 
-  group_by(User_Type, weekday) %>%
-  summarise(number_of_rides = n() , average_duration = mean(Ride_length)) %>%
-  arrange(User_Type,weekday) # sorts 
-
-
-
-View(all_quart_data)
-
-write.csv(data_by_week,"C:/Users/piyus/Desktop/bike-share PROJECT//Bike_Data_by_week.csv", row.names = FALSE)
-
-mean(all_quart_data$Bike_ID)
-
 
 
 
@@ -873,19 +758,9 @@ View(counts)
 
 
 
-
-write.csv(all_quart_data,"C:/Users/piyus/Desktop/bike-share PROJECT//Bike_Data.csv", row.names = FALSE)
-
-
-
-
-
-
 # Comparing general bike type preference between members and casual riders
-Divvy_2020_data %>% 
-  group_by(rideable_type, member_casual) %>% 
+Divvy_2020_data %>%  group_by(rideable_type, member_casual) %>% 
   summarize(number_of_rides = n(), .groups = 'drop')
-
 
 
 
@@ -909,8 +784,8 @@ Divvy_2020_data %>%
 
 
 
-
-custom_theme = theme(plot.title=element_text(size=20),
+# creating a custom theme for the plots :- 
+ custom_theme = theme(plot.title=element_text(size=20),
                  axis.text.x=element_text(size=9), 
                  axis.text.y=element_text(size=16),
                  axis.title.x=element_text(size=18), 
@@ -996,7 +871,7 @@ ggplot(data = top_10_station_casual) +
   labs(title = "Top 10 Used Stations by Casual Riders", x = "", y = "Number of Rides") + 
   scale_y_continuous(labels = scales::comma) +
   coord_flip() +
-  theme_minimal() + my_theme
+  theme_minimal() + custom_theme
 
 
 # top 10 start stations (casual riders)
@@ -1057,7 +932,7 @@ Divvy_2020_data %>%
 
 
 
-#  number of rides between members and casual riders by day of week across the year¶
+#  number of rides between members and casual riders by day of week across the yearÂ¶
 
 options(repr.plot.width = 26, repr.plot.height = 10)
 
