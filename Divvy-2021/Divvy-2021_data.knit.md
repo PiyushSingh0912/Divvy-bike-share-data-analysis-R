@@ -491,7 +491,7 @@ Divvy_2021_Q1_data %>%
 ## `summarise()` has grouped output by 'member_casual'. You can override using the `.groups` argument.
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-16-1.PNG" width="672" />
 
 
 
@@ -517,7 +517,7 @@ Divvy_2021_Q1_data%>%
 ## Don't know how to automatically pick scale for object of type difftime. Defaulting to continuous.
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-17-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-17-1.PNG" width="672" />
 
 
 
@@ -629,7 +629,7 @@ Divvy_2021_Q1_data%>%
   custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-22-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-22-1.PNG" width="672" />
 
 
 
@@ -656,7 +656,7 @@ Divvy_2021_Q1_data %>%
  custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-23-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-23-1.PNG" width="672" />
 
 
 
@@ -681,7 +681,7 @@ Divvy_2021_Q1_data %>%
   custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-24-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-24-1.PNG" width="672" />
 
 
 
@@ -707,7 +707,7 @@ Divvy_2021_Q1_data%>%
   custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-25-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-25-1.PNG" width="672" />
 
 
 
@@ -730,7 +730,7 @@ Divvy_2021_Q1_data %>%
        title = "Usage of Different Bikes: Members vs. Casual Riders") + custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-26-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-26-1.PNG" width="672" />
 
 
 
@@ -755,7 +755,7 @@ Divvy_2021_Q1_data%>%
   theme(axis.text.x = element_text(angle = 90)) + custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-27-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-27-1.PNG" width="672" />
 
 
 
@@ -781,7 +781,7 @@ Divvy_2021_Q1_data %>%
   custom_theme
 ```
 
-<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-28-1.png" width="672" />
+<img src="Divvy-2021_data_files/figure-html/unnamed-chunk-28-1.PNG" width="672" />
 
 
 
