@@ -25,6 +25,10 @@ Cyclistic: A bike-share program that features more than 5,800 bicycles and 600 d
                                  
    * Customers who purchase annual memberships are Cyclistic members.
                                  
+ **Data Source** : Previous 16 months (from 01/2020 to 04/2021) of Cyclistic trip data
+
+* 16 csv. Files
+* 13 variables                                
                              
                              
 
