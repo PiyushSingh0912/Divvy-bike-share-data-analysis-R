@@ -3,6 +3,26 @@
 ### Welcome to the Cyclistic(Divvy) bike-share analysis case study!
 <img src="https://user-images.githubusercontent.com/87012338/127745994-9c9de6a3-4f00-41a7-9a8c-7fe10c69c137.png" width="170" height="300">
 
+
+
+![ch_Divvy-bikes+(1)](https://user-images.githubusercontent.com/87012338/127839294-56ea5f50-2319-49b6-84ab-d64b4b7237bd.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+* Cyclistic is a fictional name for the Divvy company 
+* This is a project done in RStudio 
+
+
+
 Analysis Method Followed : **ask -> prepare ->  process -> analyze -> share -> act**
 
 Cyclistic: A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and            cargo bikes ,making bike-share more inclusive to people with disabilities and riders who can't use a standard two-wheeled bike. 
