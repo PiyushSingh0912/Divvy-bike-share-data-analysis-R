@@ -18,7 +18,7 @@
 
 
 
-* Cyclistic is a fictional name for the Divvy company 
+* Cyclistic is a fictional name for the Divvy bikes share company 
 * This is a project done in RStudio 
 
 
@@ -27,7 +27,7 @@ Analysis Method Followed : **ask -> prepare ->  process -> analyze -> share -> a
 
 Cyclistic: A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and            cargo bikes ,making bike-share more inclusive to people with disabilities and riders who can't use a standard two-wheeled bike. 
            
-  ***Facts***:The majority of riders opt for tarditional bikes: about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, nut                            about 30 % use them to commute to work each day.
+  ***Facts***:The majority of riders opt for tarditional bikes: about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure,                             about 30 % use them to commute to work each day.
 
 **My job** : junior data analyst working in the marketing analyst team.
 
